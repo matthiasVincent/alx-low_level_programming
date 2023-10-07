@@ -26,7 +26,7 @@ int main(void)
 	b_h1 = c / 1000000;
 	b_h2 = c % 1000000;
 
-	for (i = 93; i < 99; i++)
+	for (i = 94; i < 99; i++)
 	{
 		h1 = a_h1 + b_h1;
 		h2 = a_h2 + b_h2;
