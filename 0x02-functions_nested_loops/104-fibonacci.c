@@ -22,7 +22,6 @@ int main(void)
 		c = a + b;
 		printf("%lu, ", c);
 	}
-
 	a_h1 = b / 1000000;
 	a_h2 = b % 1000000;
 	b_h1 = c / 1000000;
@@ -39,12 +38,13 @@ int main(void)
 		}
 		printf("%lu%lu", h1, h2);
 		if (i != 98)
-			printf(",  ");
+			printf(", ");
 		a_h1 = b_h1;
 		a_h2 = b_h2;
 		b_h1 = h1;
 		b_h2 = h2;
 	}
+	putchar(' ');
 	putchar('\n');
 
 	return (0);
