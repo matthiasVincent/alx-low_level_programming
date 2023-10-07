@@ -13,14 +13,13 @@ int main(void)
 
 	a = 0;
 	b = 1;
-	c = a + b;
-	printf("%lu, ", c);
+
 	for (i = 2; i < 93; i++)
 	{
-		a = b;
-		b = c;
 		c = a + b;
 		printf("%lu, ", c);
+		a = b;
+		b = c;
 	}
 	a_h1 = b / 1000000;
 	a_h2 = b % 1000000;
@@ -44,7 +43,6 @@ int main(void)
 		b_h1 = h1;
 		b_h2 = h2;
 	}
-	putchar(' ');
 	putchar('\n');
 
 	return (0);
