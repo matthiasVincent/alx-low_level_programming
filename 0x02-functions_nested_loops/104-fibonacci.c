@@ -42,8 +42,8 @@ int main(void)
 		printf("%lu%lu", h1, h2);
 		if (i == 98)
 			continue;
-		putchar(",");
-		putchar(" ");
+		putchar(',');
+		putchar(' ');
 		a_h1 = b_h1;
 		a_h2 = b_h2;
 		b_h1 = h1;
