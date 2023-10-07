@@ -44,8 +44,8 @@ int main(void)
 		a_h2 = b_h2;
 		b_h1 = h1;
 		b_h2 = h2;
-	putchar('\n');
 	}
+	putchar('\n');
 
 	return (0);
 }
