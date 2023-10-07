@@ -8,18 +8,18 @@
  */
 int main(void)
 {
-	unsigned long long int a, b, c, i;
+	unsigned int a, b, c, i;
 
 	a = 0;
 	b = 1;
 	c = a + b;
-	printf("%llu, ", c);
+	printf("%u, ", c);
 	for (i = 2; i <= 98; i++)
 	{
 		a = b;
 		b = c;
 		c = a + b;
-		printf("%llu", c);
+		printf("%u", c);
 		if (i == 98)
 			continue;
 		putchar(',');
