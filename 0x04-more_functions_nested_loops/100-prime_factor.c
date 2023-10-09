@@ -28,6 +28,6 @@ int main(void)
 	}
 	if (k > 2)
 		max = k;
-	printf("%ld\n", max);
+	printf("%lld\n", max);
 	return (0);
 }
