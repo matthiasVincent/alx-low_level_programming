@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	long long int i, k, max;
+	unsigned long int i, k, max;
 
 	k = 612852475143;
 	max = 0;
@@ -28,6 +28,6 @@ int main(void)
 	}
 	if (k > 2)
 		max = k;
-	printf("%lld\n", max);
+	printf("%lu\n", max);
 	return (0);
 }
